@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 4</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <!-- font awsome libary -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- normalize css  -->
+    <link rel="stylesheet" href="./css/normalize.css"/> 
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sc-1">
+        <div class="nav-contaniner">
+            <nav class="navbar">
+                <h1 id="logo">WAUI</h1>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-links">home</a></li>
+                    <li><a href="#" class="nav-links">services</a></li>
+                    <li><a href="#" class="nav-links">about us</a></li>
+                    <li><a href="#" class="nav-links">contact us</a></li>
+                    <li class="nav-btn"><a href="#"></a>sign up</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- NEW SECTION -2 -->
+    <div class="sc-2">
+        <div class="main">
+            <!-- <div class="container"> -->
+                <div class="main-container">
+                <div class="main-content">
+                    <h1>Skyrocket your results</h1>
+                    <p>WAUI allows you to fully automate your business so you can focus on what's important!</p>
+                    <button class="main-btn"><a href="#">get started</a></button>
+                </div>
+
+                <div class="main-img-container">
+                    <img src="./images/red.svg" alt="" id="main-img">
+                </div>
+            </div>
+        <!-- </div> -->
+        </div>
+    </div>
+
+    <!-- START MODEL -->
+
+    <div class="modal" id="email-modal">
+        <div class="modal-content">
+            <span class="close-btn"><i class="fas fa-times"></i></span> 
+            <!-- &times; to make a close icon -->
+            <div class="modal-content-left">
+                <img src="./images/red.svg" id="modal-img" alt="">
+            </div>
+
+            <div class="modal-content-right">
+                <form action="/" method="GET" class="modal-form" id="form">
+                    <h1>GET started with us today! Create your account by filling out the information below.</h1>
+                    <!-- first one (1) -->
+                    <div class="form-validation">
+                        <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name: ">
+                        <p>Error Message</p>
+                    </div>
+                    <!-- second one (2) -->
+                    <div class="form-validation">
+                        <input type="email" class="modal-input" id="email" name="email" placeholder="Enter your email: ">
+                        <p>Error Message</p>
+                    </div>
+                    <!-- third one (3) -->
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password" name="password" placeholder="Enter your password: ">
+                        <p>Error Message</p>
+                    </div>
+                    <!-- forth one (4) -->
+                    <div class="form-validation">
+                        <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Confirm your password: ">
+                        <p>Error Message</p>
+                    </div>
+                    <!-- ENDING -->
+                    <input type="submit" value="Sing Up" class="modal-input-btn">
+                    <span class="modal-input-login">Already have an account? Login <a href="#">Here</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END MODEL -->
+
+    <!-- img gallery -->
+    <div class="services-section">
+
+        <div class="services-heading">
+            <h1>Check out our services below!</h1>
+        </div>
+        <div class="services">
+            <!-- 1 -->
+            <div class="services-cell">
+                <img src="./images/img-1.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Digital Marketing</div>
+            </div>
+            <!-- 2 -->
+            <div class="services-cell">
+                <img src="./images/img-2.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Website Development </div>
+            </div>
+    
+            <!-- 3 -->
+            <div class="services-cell">
+                <img src="./images/img-3.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Videography</div>
+            </div>
+        
+            <!-- 4 -->
+            <div class="services-cell">
+                <img src="./images/img-4.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Photography</div>
+            </div>
+        
+            <!-- 5 -->
+            <div class="services-cell">
+                <img src="./images/img-5.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Consulting</div>
+            </div>
+        
+            <!-- 6 -->
+            <div class="services-cell">
+                <img src="./images/img-6.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">SEO</div>
+            </div>
+        
+            <!-- 7 -->
+            <div class="services-cell">
+                <img src="./images/img-7.jpg" alt="" class="services-cell-img">
+                <div class="services-cell-text">Graphic Design</div>
+            </div>
+
+            <!-- end -->
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer">
+            <header class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+                <a href="#">Terms of Service</a>
+            </header>
+            <header class="footer-heading footer-2">
+                <h2>Contact Us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a>
+            </header>
+            <header class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instgram</a>
+                <a href="#">Youtube</a>
+            </header>
+            <header class="footer-email-form">
+                <h2>Join Our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email" />
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </header>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
