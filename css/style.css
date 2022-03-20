@@ -852,7 +852,7 @@ SECTION 2 -- CONTENT AND SVG PHOTO:
     margin-top: 4rem;
   }
   .footer-container {
-    padding-bottom: 4rem;
+    padding-bottom: 14rem;
   }
 }
 
@@ -865,7 +865,7 @@ SECTION 2 -- CONTENT AND SVG PHOTO:
 
 @media (max-width: 750px) {
   .footer-container {
-    padding-bottom: 10rem;
+    padding-bottom: 18rem;
   }
   .footer {
     justify-content: flex-start;
@@ -897,5 +897,10 @@ SECTION 2 -- CONTENT AND SVG PHOTO:
     align-items: center;
     flex-direction: column;
     padding-top: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .footer-container {
+    height: 157vh;
   }
 }
